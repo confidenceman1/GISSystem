@@ -1,0 +1,65 @@
+﻿  buffer.cpp
+D:\Boost\boost_1_82_0\boost\random\mixmax.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Boost\boost_1_82_0\boost\random\detail\mixmax_skip_N17.ipp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(16,15): error C2039: "Exact_predicates_exact_constructions_kernel": 不是 "CGAL" 的成员
+D:\CGAL\CGAL-5.5.2\include\CGAL\offset_polygon_2.h(22): message : 参见“CGAL”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(16,65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(16,59): error C2146: 语法错误: 缺少“;”(在标识符“Kernel”的前面)
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(17,9): error C2825: 'Kernel': 当后面跟“::”时必须为类或命名空间
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(17,17): error C2510: “Kernel”:“::”的左边必须是类/结构/联合
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(17,32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(17,25): error C2146: 语法错误: 缺少“;”(在标识符“Point_2”的前面)
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(17,32): warning C4091: “”: 没有声明变量时忽略“int”的左侧
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(18,15): error C2923: “CGAL::Polygon_2”: 对于参数“Traits_P”，“Kernel”不是有效的 模板 类型变量
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(16): message : 参见“Kernel”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(18,15): error C2976: “CGAL::Polygon_2”: 模板 参数太少
+D:\CGAL\CGAL-5.5.2\include\CGAL\Polygon_2.h(63): message : 参见“CGAL::Polygon_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(19,15): error C2923: “CGAL::Gps_traits_2”: 对于参数“ArrTraits_2”，“Kernel”不是有效的 模板 类型变量
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(16): message : 参见“Kernel”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(19,15): error C2976: “CGAL::Gps_traits_2”: 模板 参数太少
+D:\CGAL\CGAL-5.5.2\include\CGAL\Gps_traits_2.h(29): message : 参见“CGAL::Gps_traits_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(20,21): error C2955: “CGAL::Gps_traits_2”: 使用 类 模板 需要 模板 参数列表
+D:\CGAL\CGAL-5.5.2\include\CGAL\Gps_traits_2.h(29): message : 参见“CGAL::Gps_traits_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(25,16): error C2133: “P”: 未知的大小
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(25,15): error C2512: “CGAL::Polygon_2”: 没有合适的默认构造函数可用
+D:\CGAL\CGAL-5.5.2\include\CGAL\Polygon_2.h(63,1): message : 参见“CGAL::Polygon_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(26,29): error C2440: “<function-style-cast>”: 无法从“initializer list”转换为“Point_2”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(26,24): message : 初始值设定项包含过多元素
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(26,30): error C2662: “void CGAL::Polygon_2<Traits_P,Container_P>::push_back(const Traits_P::Point_2 &)”: 不能将“this”指针从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P> &”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(26,30): message : 原因如下: 无法从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P>”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(26,5): message : 转换要求第二个用户定义的转换运算符或构造函数
+D:\CGAL\CGAL-5.5.2\include\CGAL\Polygon_2.h(229,10): message : 参见“CGAL::Polygon_2<Traits_P,Container_P>::push_back”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(27,29): error C2440: “<function-style-cast>”: 无法从“initializer list”转换为“Point_2”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(27,24): message : 初始值设定项包含过多元素
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(27,30): error C2662: “void CGAL::Polygon_2<Traits_P,Container_P>::push_back(const Traits_P::Point_2 &)”: 不能将“this”指针从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P> &”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(27,30): message : 原因如下: 无法从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P>”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(27,5): message : 转换要求第二个用户定义的转换运算符或构造函数
+D:\CGAL\CGAL-5.5.2\include\CGAL\Polygon_2.h(229,10): message : 参见“CGAL::Polygon_2<Traits_P,Container_P>::push_back”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(28,29): error C2440: “<function-style-cast>”: 无法从“initializer list”转换为“Point_2”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(28,24): message : 初始值设定项包含过多元素
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(28,30): error C2662: “void CGAL::Polygon_2<Traits_P,Container_P>::push_back(const Traits_P::Point_2 &)”: 不能将“this”指针从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P> &”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(28,30): message : 原因如下: 无法从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P>”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(28,5): message : 转换要求第二个用户定义的转换运算符或构造函数
+D:\CGAL\CGAL-5.5.2\include\CGAL\Polygon_2.h(229,10): message : 参见“CGAL::Polygon_2<Traits_P,Container_P>::push_back”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(29,29): error C2440: “<function-style-cast>”: 无法从“initializer list”转换为“Point_2”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(29,24): message : 初始值设定项包含过多元素
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(29,30): error C2662: “void CGAL::Polygon_2<Traits_P,Container_P>::push_back(const Traits_P::Point_2 &)”: 不能将“this”指针从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P> &”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(29,30): message : 原因如下: 无法从“Polygon_2”转换为“CGAL::Polygon_2<Traits_P,Container_P>”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(29,5): message : 转换要求第二个用户定义的转换运算符或构造函数
+D:\CGAL\CGAL-5.5.2\include\CGAL\Polygon_2.h(229,10): message : 参见“CGAL::Polygon_2<Traits_P,Container_P>::push_back”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(31,61): error C2662: “size_t CGAL::Polygon_2<Traits_P,Container_P>::size(void) const”: 不能将“this”指针从“Polygon_2”转换为“const CGAL::Polygon_2<Traits_P,Container_P> &”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(31,61): message : 原因如下: 无法从“Polygon_2”转换为“const CGAL::Polygon_2<Traits_P,Container_P>”
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(31,54): message : 转换要求第二个用户定义的转换运算符或构造函数
+D:\CGAL\CGAL-5.5.2\include\CGAL\Polygon_2.h(498,17): message : 参见“CGAL::Polygon_2<Traits_P,Container_P>::size”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(34,22): error C2133: “traits”: 未知的大小
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(34,16): error C2512: “CGAL::Gps_traits_2”: 没有合适的默认构造函数可用
+D:\CGAL\CGAL-5.5.2\include\CGAL\Gps_traits_2.h(29,1): message : 参见“CGAL::Gps_traits_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(37,48): error C2672: “CGAL::offset_polygon_2”: 未找到匹配的重载函数
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(37,77): error C2780: “Gps_traits_2<Traits_,CGAL::General_polygon_2<Arr_traits>>::Polygon_with_holes_2 CGAL::offset_polygon_2(const CGAL::Polygon_2<ConicTraits::Rat_kernel,Container> &,const ConicTraits::Rat_kernel::FT &,const DecompositionStrategy &,const ConicTraits &)”: 应输入 4 个参数，却提供了 3 个
+D:\CGAL\CGAL-5.5.2\include\CGAL\offset_polygon_2.h(104): message : 参见“CGAL::offset_polygon_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(37,77): error C2784: “Gps_traits_2<Traits_,CGAL::General_polygon_2<Arr_traits>>::Polygon_with_holes_2 CGAL::offset_polygon_2(const CGAL::Polygon_with_holes_2<ConicTraits::Rat_kernel,Container> &,const ConicTraits::Rat_kernel::FT &,const ConicTraits &)”: 未能从“Polygon_2”为“const CGAL::Polygon_with_holes_2<ConicTraits::Rat_kernel,Container> &”推导 模板 参数
+D:\CGAL\CGAL-5.5.2\include\CGAL\offset_polygon_2.h(69): message : 参见“CGAL::offset_polygon_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(37,77): error C2784: “Gps_traits_2<Traits_,CGAL::General_polygon_2<Arr_traits>>::Polygon_with_holes_2 CGAL::offset_polygon_2(const CGAL::Polygon_2<ConicTraits::Rat_kernel,Container> &,const ConicTraits::Rat_kernel::FT &,const ConicTraits &)”: 未能从“Polygon_2”为“const CGAL::Polygon_2<ConicTraits::Rat_kernel,Container> &”推导 模板 参数
+D:\CGAL\CGAL-5.5.2\include\CGAL\offset_polygon_2.h(36): message : 参见“CGAL::offset_polygon_2”的声明
+D:\CGAL\Exercise\01_useLib\First_cgal\First_cgal\buffer.cpp(37,40): error C2512: “CGAL::General_polygon_with_holes_2<GeneralPolygon_2>”: 没有合适的默认构造函数可用
+D:\CGAL\CGAL-5.5.2\include\CGAL\Gps_traits_2.h(44,17): message : 参见“CGAL::General_polygon_with_holes_2<GeneralPolygon_2>”的声明
